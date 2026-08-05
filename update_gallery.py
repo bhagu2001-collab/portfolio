@@ -12,7 +12,7 @@ def main():
     try:
         # Run gdrive command to list files in JSON format
         result = subprocess.run(
-            [GDRIVE_PATH, 'readonly', 'ls', FOLDER_ID, '--json'],
+            [GDRIVE_PATH, 'readonly', 'ls', FOLDER_ID, '--json', '--max', '200'],
             capture_output=True,
             text=True,
             check=True
