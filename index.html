@@ -29,27 +29,38 @@
 <body class="bg-black text-gray-100 min-h-screen no-scrollbar">
 
   <!-- Floating Timeline Navigation (Right Side) -->
-  <!-- Adjusted: Added 'hidden sm:flex' to hide on mobile and only show on tablet/desktop -->
   <nav id="timeline-nav" class="hidden sm:flex fixed right-6 top-1/2 -translate-y-1/2 z-40 flex-col gap-3 text-[10px] tracking-widest text-white/40 font-semibold uppercase pointer-events-auto">
     <!-- Dynamic Month Links will be injected here -->
   </nav>
 
   <!-- Main Content -->
-  <!-- Adjusted: p-0 (no padding, full-bleed) on mobile, sm:p-1 and sm:pr-20 on desktop -->
   <main class="w-full p-0 sm:p-1 sm:pr-20">
     <!-- Gallery (Masonry) -->
-    <!-- Adjusted: columns-2 on mobile, columns-3 on tablet (md), columns-4 on desktop (lg) -->
     <div id="gallery" class="columns-2 md:columns-3 lg:columns-4 gap-1 space-y-1">
       <!-- Photos dynamically injected -->
     </div>
   </main>
 
   <!-- Lightbox (Modal) -->
-  <div id="lightbox" class="fixed inset-0 z-50 hidden bg-black/98 items-center justify-center p-2 sm:p-4">
+  <div id="lightbox" class="fixed inset-0 z-50 hidden bg-black/98 items-center justify-center p-2 sm:p-4 select-none">
     <!-- Close Button -->
-    <button id="lightbox-close" class="absolute top-2 right-2 sm:top-4 sm:right-4 text-white/75 hover:text-white p-2 rounded-full hover:bg-white/10 transition-colors focus:outline-none" aria-label="Close lightbox">
+    <button id="lightbox-close" class="absolute top-2 right-2 sm:top-4 sm:right-4 text-white/75 hover:text-white p-2 rounded-full hover:bg-white/10 transition-colors focus:outline-none z-50" aria-label="Close lightbox">
       <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+      </svg>
+    </button>
+
+    <!-- Prev Button -->
+    <button id="lightbox-prev" class="absolute left-2 sm:left-4 top-1/2 -translate-y-1/2 text-white/75 hover:text-white p-2 rounded-full hover:bg-white/10 transition-colors focus:outline-none z-50" aria-label="Previous photo">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 sm:h-12 sm:w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+      </svg>
+    </button>
+
+    <!-- Next Button -->
+    <button id="lightbox-next" class="absolute right-2 sm:right-4 top-1/2 -translate-y-1/2 text-white/75 hover:text-white p-2 rounded-full hover:bg-white/10 transition-colors focus:outline-none z-50" aria-label="Next photo">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 sm:h-12 sm:w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
       </svg>
     </button>
 
@@ -62,6 +73,6 @@
   </div>
 
   <!-- Main JS with Cache Buster -->
-  <script type="module" src="./app.js?v=5"></script>
+  <script type="module" src="./app.js?v=6"></script>
 </body>
 </html>
