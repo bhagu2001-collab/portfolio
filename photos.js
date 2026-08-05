@@ -2,72 +2,30 @@
 export const photos = [
   {
     id: 1,
-    url: 'https://lh3.googleusercontent.com/d/1KqdOcc6MwBEvCEAW4E1wYsFTUBVVFZj_',
-    title: 'Copy Of 8',
-    date: '2026-08-05T21:30:48.197Z',
+    url: 'https://lh3.googleusercontent.com/d/1WODy1PfmAutrO8icbMhm7bEuQOAcUaEN',
+    title: 'Dscf5609',
+    date: '2026-08-05T21:45:31.714Z',
     description: 'Imported from Google Drive.'
   },
   {
     id: 2,
-    url: 'https://lh3.googleusercontent.com/d/1-0E9N-eQv3uYneKHT1BUvM_oqdGpG0wp',
-    title: 'Copy Of 8',
-    date: '2026-08-05T21:30:48.197Z',
+    url: 'https://lh3.googleusercontent.com/d/1v9CaoAPf1y3tO3D1Q2e1kpOWo9644QWA',
+    title: 'Dscf5410',
+    date: '2026-08-05T21:45:28.479Z',
     description: 'Imported from Google Drive.'
   },
   {
     id: 3,
-    url: 'https://lh3.googleusercontent.com/d/1W7gVF0UY78-eOoaXZ0RJImuCeYTW3MhL',
-    title: 'Copy Of 9',
-    date: '2026-08-05T21:30:48.197Z',
+    url: 'https://lh3.googleusercontent.com/d/1MvSraNI-Py6o2NGrAQ7ZanxMXrWABhPI',
+    title: 'Dscf5432',
+    date: '2026-08-05T21:45:25.262Z',
     description: 'Imported from Google Drive.'
   },
   {
     id: 4,
-    url: 'https://lh3.googleusercontent.com/d/17SnY3Cp-9Vv40_zX_3FV1eQW86idsP_h',
-    title: 'Copy Of 9',
-    date: '2026-08-05T21:30:48.197Z',
-    description: 'Imported from Google Drive.'
-  },
-  {
-    id: 5,
-    url: 'https://lh3.googleusercontent.com/d/1n4wMPXFP55NnLSNy21uduuGNmNKySZkH',
-    title: 'Copy Of 4',
-    date: '2026-08-05T21:30:43.859Z',
-    description: 'Imported from Google Drive.'
-  },
-  {
-    id: 6,
-    url: 'https://lh3.googleusercontent.com/d/1zRT_PTFlRxpstpALlqgBGHCSpUVNs38R',
-    title: 'Copy Of 4',
-    date: '2026-08-05T21:30:43.859Z',
-    description: 'Imported from Google Drive.'
-  },
-  {
-    id: 7,
-    url: 'https://lh3.googleusercontent.com/d/1ST00uM_27OROEyqeAhTxtw6pIX5bzgIa',
-    title: 'Copy Of 5',
-    date: '2026-08-05T21:30:43.859Z',
-    description: 'Imported from Google Drive.'
-  },
-  {
-    id: 8,
-    url: 'https://lh3.googleusercontent.com/d/1bIxDt4tPPnPv9cYaA2IyyxGsPz97C0Iz',
-    title: 'Copy Of 5',
-    date: '2026-08-05T21:30:43.859Z',
-    description: 'Imported from Google Drive.'
-  },
-  {
-    id: 9,
-    url: 'https://lh3.googleusercontent.com/d/1pgvvpPiq5x0Kf48ugat_P4C2dvC72U5Y',
-    title: 'Copy Of 5C568714 3746 4249 B73A 8A6C8Aa50A8A',
-    date: '2026-08-05T21:30:43.859Z',
-    description: 'Imported from Google Drive.'
-  },
-  {
-    id: 10,
-    url: 'https://lh3.googleusercontent.com/d/1TcDDwNtfIGcK6C_JEcAAs7xWKB6ZM08-',
-    title: 'Unnamed',
-    date: '2026-05-19T18:25:41.000Z',
+    url: 'https://lh3.googleusercontent.com/d/1AKt3hZJfmnd3lFXel0D_YhX-rZltoYx-',
+    title: 'Dscf5306',
+    date: '2026-08-05T21:45:22.091Z',
     description: 'Imported from Google Drive.'
   }
 ];
